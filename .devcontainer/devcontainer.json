@@ -1,0 +1,8 @@
+
+{
+    "name": "Flutter App",
+    "image": "google/dart:latest",
+    "forwardPorts": [5000],
+    "postCreateCommand": "flutter pub get",
+    "extensions": ["dart-code.flutter"]
+  }
